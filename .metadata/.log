@@ -3720,3 +3720,258 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.898
 !MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:40.033
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:40.033
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:40.041
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:40.043
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:40.047
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:40.048
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.858
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.858
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.858
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.858
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.869
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.873
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.875
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.877
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.879
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.880
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.601
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.634
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.649
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.649
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.649
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.662
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.663
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.663
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.673
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.675
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.172
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.172
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.195
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.195
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.207
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.209
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.209
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.209
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.209
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.225
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.230
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.230
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.235
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.235
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.235
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.235
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.235
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.251
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.251
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.258
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.260
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 4 0 2022-01-11 21:11:48.260
+!MESSAGE The project javaconfigtest is not accessible.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.268
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.692
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.692
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.692
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.692
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.709
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.710
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.710
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.710
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.718
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.719
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.488
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.488
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.497
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.499
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.505
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.507
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.507
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.507
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.520
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.340
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.342
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.342
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.346
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.348
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.349
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.349
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.353
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.355
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.493
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.508
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.525
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.527
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.539
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.541
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.543
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.553
+!MESSAGE Loading default.substvar as a plaintext file.
