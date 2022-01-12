@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_ZWrjgElREeSLy9ahlQm9Cw" targetNamespace="http://tns.tibco.com/bw/composite/tibco.bw.sample.palette.java.InvokeCode" name="tibco.bw.sample.palette.java.InvokeCode" compositeext:version="1.0.0" compositeext:description="Invoking Custom Code to Complete a Purchase Order" compositeext:formatVersion="2">
+  <sca:property xmi:id="_bq63AElREeSLy9ahlQm9Cw" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_brjJIElREeSLy9ahlQm9Cw" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_brrE8ElREeSLy9ahlQm9Cw" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_brwkgElREeSLy9ahlQm9Cw" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_br4gUElREeSLy9ahlQm9Cw" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_br9_4ElREeSLy9ahlQm9Cw" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_bsC4YElREeSLy9ahlQm9Cw" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_bsK0MElREeSLy9ahlQm9Cw" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_bsQ60ElREeSLy9ahlQm9Cw" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_1j5AIElREeSLy9ahlQm9Cw" name="JavaFile" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3Bb8MElREeSLy9ahlQm9Cw" name="OutputFile" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_4O504ElREeSLy9ahlQm9Cw" name="ReadFileInput" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_apeoIElREeSLy9ahlQm9Cw" name="ComponentJavaProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_apf2QElREeSLy9ahlQm9Cw" processName="tibco.bw.sample.palette.java.invokecode.JavaProcess"/>
+  </sca:component>
+</sca:composite>

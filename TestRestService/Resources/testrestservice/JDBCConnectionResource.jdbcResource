@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:subject="http://xsd.tns.tibco.com/trinity/models/identity/subject" xmi:id="_Zp7JcXDVEeymMfebJu1NvQ" name="testrestservice.JDBCConnectionResource" type="jdbc:JdbcDataSource">
+  <jndi:reference xmi:id="_ZraXMHDVEeymMfebJu1NvQ" key="subjectJndiName" type="subject:SubjectConfiguration" value=""/>
+  <jndi:configuration xsi:type="jdbc:JdbcDataSource" xmi:id="_ZraXMXDVEeymMfebJu1NvQ">
+    <substitutionBindings xmi:id="_rl4sQHLkEeyji6iuyx02jg" template="username" propName="sqluser"/>
+    <substitutionBindings xmi:id="_Bi_cwHLlEeyji6iuyx02jg" template="password" propName="sqlpassword"/>
+    <connectionConfig xsi:type="jdbc:NonXaConnection" xmi:id="_ZreooHDVEeymMfebJu1NvQ" jdbcDriver="tibcosoftwareinc.jdbc.sqlserver.SQLServerDriver">
+      <substitutionBindings xmi:id="_T7clUHLmEeyji6iuyx02jg" template="dbURL" propName="DatabaseURL"/>
+    </connectionConfig>
+  </jndi:configuration>
+</jndi:namedResource>

@@ -1,0 +1,101 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "TIBCO Cloud Integration Rest Basic Sample",
+    "description" : "TIBCO Cloud Integration Rest Basic Sample"
+  },
+  "host" : "localhost:8080",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/books" : {
+      "post" : {
+        "description" : "",
+        "operationId" : "postbooks",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "description" : "",
+          "schema" : {
+            "$ref" : "#/definitions/Books"
+          },
+          "required" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "a Books to be returned",
+            "schema" : {
+              "$ref" : "#/definitions/Books"
+            }
+          }
+        }
+      },
+      "get" : {
+        "description" : "",
+        "operationId" : "getbooks",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "a Books to be returned",
+            "schema" : {
+              "$ref" : "#/definitions/Books"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Book" : {
+      "type" : "object",
+      "required" : [ ],
+      "properties" : {
+        "isbn" : {
+          "type" : "string"
+        },
+        "name" : {
+          "type" : "string"
+        },
+        "description" : {
+          "type" : "string"
+        },
+        "authorName" : {
+          "type" : "string"
+        },
+        "releaseDate" : {
+          "type" : "string",
+          "format" : "date"
+        },
+        "vintage" : {
+          "type" : "boolean"
+        },
+        "signed" : {
+          "type" : "boolean"
+        },
+        "price" : {
+          "type" : "number"
+        }
+      }
+    },
+    "Books" : {
+      "type" : "object",
+      "required" : [ ],
+      "properties" : {
+        "Book" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Book",
+            "uniqueItems" : false
+          }
+        }
+      }
+    }
+  }
+}
