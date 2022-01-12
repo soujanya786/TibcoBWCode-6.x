@@ -1,0 +1,12 @@
+{"records": [
+    {
+        "jsonSchemaLocation": "/tibco_bw_sample_binding_rest_basic_service_temp/Service Descriptors/tibco_bw_sample_binding_rest_basic.Books-Books.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.org/Books"
+    },
+    {
+        "jsonSchemaLocation": "/tibco_bw_sample_binding_rest_basic_service/Service Descriptors/tibco_bw_sample_binding_rest_basic.Books-Books.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.org/Books"
+    }
+]}

@@ -1,0 +1,17 @@
+{"records": [
+    {
+        "jsonSchemaLocation": "/TestRestService/Service Descriptors/testrestservice.MainProcess-Resource.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.com/namespaces/tns/1641598819732"
+    },
+    {
+        "jsonSchemaLocation": "/TestRestService/Service Descriptors/testrestservice.MainProcess-Resource.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.com/namespaces/tns/1641599179239"
+    },
+    {
+        "jsonSchemaLocation": "/TestRestService/Service Descriptors/testrestservice.MainProcess-Resource.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.com/namespaces/tns/1641599307851"
+    }
+]}

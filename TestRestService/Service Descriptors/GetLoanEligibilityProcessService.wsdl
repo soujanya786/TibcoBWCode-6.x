@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:tns="http://xmlns.example.com/20220109001356" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="GetLoanEligibilityProcessService" targetNamespace="http://xmlns.example.com/20220109001356" xmlns:xsd1="http://xmlns.example.com/Resource/parameters" xmlns:xsd2="http://www.example.com/namespaces/tns/1641599307851">
+  <wsdl:types>
+    <xsd:schema elementFormDefault="unqualified" targetNamespace="http://xmlns.example.com/20220109001356">
+      <xsd:element name="operationRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="in" type="xsd:string"/>
+                    </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="operationResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="out" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="operationFault">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="fault" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    	<xsd:import
+    		namespace="http://xmlns.example.com/Resource/parameters"
+    		schemaLocation="../Schemas/ResourceParameterSchema.xsd">
+    	</xsd:import>
+    	<xsd:import
+    		namespace="http://www.example.com/namespaces/tns/1641599307851"
+    		schemaLocation="../Schemas/LoanEligibiltySchema.xsd">
+    	</xsd:import></xsd:schema></wsdl:types>
+  <wsdl:message name="operationRequest">
+    <wsdl:part name="GetParameters" element="xsd1:resourceGetParameters" />
+  </wsdl:message>
+  <wsdl:message name="operationResponse">
+    <wsdl:part element="xsd2:LoanEligibility" name="LoanEligibilityDetails" />
+  </wsdl:message>
+  <wsdl:message name="operationFault">
+    <wsdl:part element="tns:operationFault" name="FaultSubProcess" />
+  </wsdl:message>
+  <wsdl:portType name="Service">
+    <wsdl:operation name="operation">
+      <wsdl:input message="tns:operationRequest" name="operationInput"/>
+      <wsdl:output message="tns:operationResponse" name="operationOutput"/>
+      <wsdl:fault message="tns:operationFault" name="Fault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

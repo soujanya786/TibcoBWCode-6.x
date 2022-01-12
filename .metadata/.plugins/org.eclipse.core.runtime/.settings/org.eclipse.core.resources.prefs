@@ -1,0 +1,4 @@
+description.buildorder=RestClient/TestRestService/tibco.bw.sample.palette.java.InvokeCode/TestJava/tibco_bw_sample_binding_rest_basic_service/HTTPExample/SoapServiceTest.application/javaconfigtest/javaconfigtest.application/HTTPExample.application/tibco_bw_sample_binding_rest_basic_service_application/tibco.bw.sample.palette.java.InvokeCode.application/TestRestService.application/RestClient.application
+description.defaultbuildorder=false
+eclipse.preferences.version=1
+version=1

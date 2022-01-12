@@ -1,0 +1,7 @@
+{
+    "records": [],
+    "resources": [{
+        "location": "Service Descriptors/testrestservice.MainProcess-Resource.json",
+        "type": "generated"
+    }]
+}
