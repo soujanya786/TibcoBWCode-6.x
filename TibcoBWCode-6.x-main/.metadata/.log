@@ -1,0 +1,3977 @@
+!SESSION 2022-01-11 20:48:32.400 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2022-01-11 20:48:34.185
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2022-01-11 20:48:34.205
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2022-01-11 20:48:34.216
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jms.provider.template 4 0 2022-01-11 20:48:34.217
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jms.provider.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-11 20:48:48.039
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-11 20:48:48.039
+!MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-11 20:48:48.039
+!MESSAGE Both 'com.tibco.bw.it.model' and 'com.tibco.bw.it.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-11 20:48:48.039
+!MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-11 20:48:48.039
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-11 20:48:48.049
+!MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-11 20:48:48.050
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-11 20:48:48.050
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-11 20:48:48.059
+!MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-11 20:48:48.059
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-11 20:48:48.059
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-11 20:48:48.059
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
+
+!ENTRY org.eclipse.ui 2 0 2022-01-11 20:48:48.436
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-01-11 20:48:48.436
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-01-11 20:48:48.436
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-01-11 20:48:48.436
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.ui 2 0 2022-01-11 20:48:49.101
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-01-11 20:48:49.101
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-01-11 20:48:49.101
+!MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-01-11 20:48:49.101
+!MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-11 20:49:00.542
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sures'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-01-11 20:49:00.946
+!MESSAGE Constraint "com.tibco.amf.design.sr.core.internal.validation.constraints.SharedResourceNotInWorkspace" could not find target EMF type "Property."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-01-11 20:49:00.973
+!MESSAGE Constraint "com.tibco.bw.sharedresource.http.design.com.tibco.amf.design.sr.transport.http.ssl.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-01-11 20:49:01.020
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.HasOneStoreConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-01-11 20:49:01.020
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyAliasNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-01-11 20:49:01.020
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyPasswordNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-01-11 20:49:01.020
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.trust.editor.constraint" could not find target EMF type "TrustConfiguration."
+
+!ENTRY com.tibco.xpd.fragments 4 0 2022-01-11 20:49:01.066
+!MESSAGE com.tibco.xpd.fragments.internal.FragmentsManager$5.run(FragmentsManager.java:787) FragmentsManager.initialize(): No root categories found!!!
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-01-11 20:49:01.339
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLServerConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-01-11 20:49:01.339
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.client.editor.trust.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-01-11 20:49:01.339
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.client.editor.subject.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-01-11 20:49:01.346
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.server.editor.trust.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY org.eclipse.emf.validation 2 70 2022-01-11 20:49:01.346
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.server.editor.subject.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY com.tibco.bw.core.design.process.editor 1 0 2022-01-11 20:49:02.565
+!MESSAGE ".com.tibco.bw.rad/BWApplication.launch" file is synchronized.
+
+!ENTRY com.tibco.bw.core.design.process.editor 1 0 2022-01-11 20:49:02.609
+!MESSAGE ".com.tibco.bw.rad/runtime.target" file is synchronized.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:36.641
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:36.701
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:36.730
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:36.762
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:36.770
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:36.791
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:36.828
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:36.833
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:36.853
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:36.882
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:36.884
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:36.924
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.459
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.463
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.469
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.497
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.499
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.499
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.509
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.509
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.509
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.519
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.527
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.529
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.538
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.580
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.590
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.598
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.601
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.611
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.611
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.611
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.621
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.621
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.631
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.669
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.671
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.679
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.681
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.681
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.701
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.710
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.710
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.712
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.712
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.712
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.722
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.722
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.722
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.730
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.730
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.732
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.732
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.732
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.740
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.742
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.750
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.752
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.752
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.762
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.762
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.773
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.782
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.782
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.793
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.793
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.816
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.825
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.831
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.833
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.843
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.843
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.854
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.874
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.882
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.884
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.894
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.894
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.904
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.914
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.914
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.924
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.943
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.945
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.953
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.955
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.963
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.965
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.974
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.975
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.983
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.985
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:39.996
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.004
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.006
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.016
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.024
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.026
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.026
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.036
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.068
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.068
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.077
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.087
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.087
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.095
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.107
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.115
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.117
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.128
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.128
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.138
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.139
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.146
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.148
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.172
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.178
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.189
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.197
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.199
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.207
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.209
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.219
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.219
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.229
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.229
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.237
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.239
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.240
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.247
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.249
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.258
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.260
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.270
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.270
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.301
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.314
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.314
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.320
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.342
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.349
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.351
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.361
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.361
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.371
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.379
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.381
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.381
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.391
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.391
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.391
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.399
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.422
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.422
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.434
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.440
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.442
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.456
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.456
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.462
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.496
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.496
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.507
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.526
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.535
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.539
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.547
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.547
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.575
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.578
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.586
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.588
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.596
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.598
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:40.606
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.109
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.109
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.119
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.127
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.129
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.129
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.129
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.129
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.137
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.139
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.139
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.157
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.160
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.160
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.160
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.167
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.169
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.169
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.169
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.180
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.180
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.180
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.190
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.190
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.190
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.200
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.210
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.210
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.230
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.230
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.230
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.238
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.240
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.240
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.244
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.245
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.248
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.250
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.250
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.250
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.250
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.259
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.261
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.269
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.271
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.271
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.271
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.281
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.281
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.281
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.291
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.291
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.291
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.299
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.301
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.302
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.307
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.311
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.311
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.311
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.319
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.322
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.322
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.322
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.330
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.332
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.332
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.342
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.342
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.342
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.352
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.352
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.352
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.352
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.360
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.362
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.362
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.362
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.362
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.362
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.370
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.372
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.372
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.372
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.372
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.380
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.382
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.385
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.385
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.385
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.390
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.392
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.392
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.392
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.392
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.401
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.403
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.403
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.403
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.403
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.411
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.413
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.413
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.413
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.423
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.431
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.433
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.433
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.433
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.441
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.443
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.443
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.443
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.463
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.463
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.463
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.471
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.473
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.473
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.481
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.483
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.483
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.483
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.483
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.491
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.493
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.494
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.497
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.497
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.497
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.503
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.503
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.503
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.511
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.514
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.514
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.514
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.522
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.524
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.524
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.524
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.532
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.534
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.534
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.544
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.544
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.544
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.544
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.554
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.554
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.562
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.564
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.564
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.574
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.580
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.582
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.582
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.585
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.585
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.585
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.593
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.594
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.596
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.596
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.596
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.596
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.603
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.605
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.605
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.605
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.605
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.605
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.613
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.615
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.615
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.615
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.615
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.623
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.625
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.625
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.633
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.635
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.635
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.635
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.641
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.643
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.645
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.646
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.646
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.682
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.683
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.686
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.689
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.690
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.692
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.704
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.715
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.717
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.717
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.717
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.717
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.727
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.727
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.745
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.747
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.747
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.747
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.775
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.777
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.777
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:52:46.777
+!MESSAGE class com.tibco.zion.dc.util.DeploymentConfigurationsHelper - (savePackageUnit) : Encryption settings are empty.Saving normally.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.807
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.807
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.807
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.817
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.898
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.898
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.906
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.909
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.909
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.909
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.920
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.920
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.920
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.929
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.929
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.929
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.929
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.929
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.929
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.937
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.937
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.939
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.939
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.939
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.939
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.947
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.949
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.949
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.949
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.949
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.949
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.949
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.957
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.959
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.959
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.959
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.967
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.969
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.969
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.969
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.969
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.977
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.977
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.979
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.979
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.979
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.987
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.989
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.992
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.993
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.997
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.999
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:46.999
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:47.004
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY org.eclipse.bpel.validator 1 0 2022-01-11 20:52:50.442
+!MESSAGE Validator Startup 827ms
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:51.574
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [restclient.RestClient], Activity [Timer]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:51.574
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@20f565ec (activityTypeID: bw.generalactivities.timer, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:51.574
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:51.628
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [restclient.RestClient], Activity [InvokeRESTAPI_GetUsers]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:51.633
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@2576b078 (activityTypeID: bw.restjson.Rest, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:51.633
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:52.070
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [restclient.RestClient], Activity [ParseJSONOutput]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:52.070
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@4e47913b (activityTypeID: bw.restjson.JsonParser, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:52.070
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:52.097
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [restclient.RestClient], Activity [WriteFile]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:52.097
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@7ac7ce80 (activityTypeID: bw.file.write, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:52.097
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:52.494
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:52.494
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:52.494
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:52.510
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:52.510
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:52.510
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:52.510
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:52.510
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:52.510
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:52.526
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.653
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [pick]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.654
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.654
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.788
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [OnMessageStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.788
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.790
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.790
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [OnMessageEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.790
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.790
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.790
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [postOut]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.790
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.790
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.808
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [GroupStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.808
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.815
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.827
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [GroupEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.829
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.829
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.831
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [UpdateBankDetails]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.833
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@25cca080 (activityTypeID: bw.jdbc.update, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.833
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.847
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [GetAccNum]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.847
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@7cdc5569 (activityTypeID: bw.jdbc.JDBCQuery, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.848
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.851
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [PostLog]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.851
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@3869161a (activityTypeID: bw.generalactivities.log, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.851
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.861
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [OnMessageStart1]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.861
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.861
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.861
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [OnMessageEnd1]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.869
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.869
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.869
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [getOut]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.871
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.871
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.889
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [InvokeLEprocess]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.890
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.890
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.897
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [Log]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.900
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@7da15aa0 (activityTypeID: bw.generalactivities.log, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:53.900
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.279
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.GetLoanEligibilityProcess], Activity [Start]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.279
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.279
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.327
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.GetLoanEligibilityProcess], Activity [End]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.327
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.327
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.343
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.GetLoanEligibilityProcess], Activity [GetBalance]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.343
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@593df84a (activityTypeID: bw.jdbc.JDBCQuery, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.344
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.349
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.GetLoanEligibilityProcess], Activity [CalculateCreditScore]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.349
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@659217e0 (activityTypeID: bw.generalactivities.mapper, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.349
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.358
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.GetLoanEligibilityProcess], Activity [LoanEligibility]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.358
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@19215878 (activityTypeID: bw.generalactivities.mapper, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.358
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.368
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.GetLoanEligibilityProcess], Activity [GroupStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.368
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.368
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.368
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.GetLoanEligibilityProcess], Activity [GroupEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.368
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.368
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.368
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.GetLoanEligibilityProcess], Activity [UpdateCreditScoreLoanElig]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.368
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@3e51d53a (activityTypeID: bw.jdbc.update, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.368
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.411
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.GetLoanEligibilityProcess], Activity [GetUpdatedDetails]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.411
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@40069b90 (activityTypeID: bw.jdbc.JDBCQuery, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.411
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.915
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [pick]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.915
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:54.915
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.078
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [OnMessageStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.079
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.079
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.079
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [OnMessageEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.079
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.079
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.082
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [postOut]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.082
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.082
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.107
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [GroupStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.109
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.109
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.109
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [GroupEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.109
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.109
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.120
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [UpdateBankDetails]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.120
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@7533d04a (activityTypeID: bw.jdbc.update, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.120
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.180
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [GetAccNum]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.180
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@2d8fd58c (activityTypeID: bw.jdbc.JDBCQuery, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.180
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.191
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [PostLog]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.191
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@1b50da80 (activityTypeID: bw.generalactivities.log, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.191
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.242
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [OnMessageStart1]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.243
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.243
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.244
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [OnMessageEnd1]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.244
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.244
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.244
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [getOut]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.244
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.244
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.273
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [InvokeLEprocess]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.273
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.273
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.292
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [testrestservice.MainProcess], Activity [Log]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.292
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@645d124c (activityTypeID: bw.generalactivities.log, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:55.292
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.687
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.690
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.693
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.697
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.697
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.702
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.704
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.704
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.704
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.708
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.708
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.756
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.757
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.757
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.764
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.774
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.776
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.776
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.776
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:55.787
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.480
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [Timer]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.480
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@55102927 (activityTypeID: bw.generalactivities.timer, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.480
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.498
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [ReadPOXMLFile]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.499
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@28901ede (activityTypeID: bw.file.read, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.500
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.573
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [ParsePOXML]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.574
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@5b9bdb2a (activityTypeID: bw.xml.parsexml, version: 6.0.0.20121128)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.574
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.604
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [JavaCode]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.623
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@4ac2fd8b (activityTypeID: bw.java.javamethod, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.630
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.643
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [Initialize-Data]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.643
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@5250a8b0 (activityTypeID: bw.generalactivities.bwassign, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.643
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.659
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [repeatUntil]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.659
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.661
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.662
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [GroupStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.662
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.663
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.663
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [GroupEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.664
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.664
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.664
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [Map-Data]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.664
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@353fb9d6 (activityTypeID: bw.generalactivities.mapper, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.664
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.757
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [Assign]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.757
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@507f0c9a (activityTypeID: bw.generalactivities.bwassign, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.757
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.782
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [RenderPOXML]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.786
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@55778db5 (activityTypeID: bw.xml.renderxml, version: 6.0.0.20121128)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.787
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.839
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [PublishCompletePOMessage]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.839
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@61f0c317 (activityTypeID: bw.file.write, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:58.839
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.251
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [Timer]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.251
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@65382fc6 (activityTypeID: bw.generalactivities.timer, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.251
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.251
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [ReadPOXMLFile]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.251
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@78f7bb9e (activityTypeID: bw.file.read, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.251
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.274
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [ParsePOXML]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.275
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@6b05648e (activityTypeID: bw.xml.parsexml, version: 6.0.0.20121128)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.275
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.283
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [JavaCode]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.283
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@5f2bd0e7 (activityTypeID: bw.java.javamethod, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.283
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.300
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [Initialize-Data]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.301
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@2a23576 (activityTypeID: bw.generalactivities.bwassign, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.301
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.314
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [repeatUntil]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.314
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.318
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.319
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [GroupStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.319
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.319
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.319
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [GroupEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.321
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.321
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.321
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [Map-Data]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.321
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@4c748365 (activityTypeID: bw.generalactivities.mapper, version: 6.0.0.001)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.321
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.342
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [Assign]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.342
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@9e67b0a (activityTypeID: bw.generalactivities.bwassign, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.342
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.362
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [RenderPOXML]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.362
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@5168fedb (activityTypeID: bw.xml.renderxml, version: 6.0.0.20121128)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.362
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.384
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco.bw.sample.palette.java.invokecode.JavaProcess], Activity [PublishCompletePOMessage]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.384
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@3bea8607 (activityTypeID: bw.file.write, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:52:59.387
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.544
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.544
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.555
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.561
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.563
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.566
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.567
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.573
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.575
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.576
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.577
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.580
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.580
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.583
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.585
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.588
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.589
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.591
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.592
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.594
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.596
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.601
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.602
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.604
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.606
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.608
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.610
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.611
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.611
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.615
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.617
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.618
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.621
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.621
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.625
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.627
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.628
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.632
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.634
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.637
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.697
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.698
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.707
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.725
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.727
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.733
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.751
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.757
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.757
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.765
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.766
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.768
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.775
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.777
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.780
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.780
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.783
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.786
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.789
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.794
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.796
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.797
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.798
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.800
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.806
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.808
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.811
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.812
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.815
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.816
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.816
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.818
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.825
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.828
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.831
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.832
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.833
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.835
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.838
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.842
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.843
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.845
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.847
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.849
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.856
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.858
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.859
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.859
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:52:59.865
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.548
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco_bw_sample_binding_rest_basic_service.Books], Activity [pick]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.549
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.549
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.555
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco_bw_sample_binding_rest_basic_service.Books], Activity [OnMessageStart]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.558
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.558
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.559
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco_bw_sample_binding_rest_basic_service.Books], Activity [OnMessageEnd]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.560
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.560
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.560
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco_bw_sample_binding_rest_basic_service.Books], Activity [postOut]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.562
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.562
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.568
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco_bw_sample_binding_rest_basic_service.Books], Activity [OnMessageStart1]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.568
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.570
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.570
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco_bw_sample_binding_rest_basic_service.Books], Activity [OnMessageEnd1]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.570
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.571
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.571
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco_bw_sample_binding_rest_basic_service.Books], Activity [getOut]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.572
+!MESSAGE   bwActivity = null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.572
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.581
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco_bw_sample_binding_rest_basic_service.Books], Activity [RenderJSON]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.581
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@2e892738 (activityTypeID: bw.restjson.JsonRender, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.581
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.592
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [tibco_bw_sample_binding_rest_basic_service.Books], Activity [ParseJSON]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.592
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@4f0c352e (activityTypeID: bw.restjson.JsonParser, version: null)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:00.592
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.747
+!MESSAGE Unable to load product extension information, non-recognized type 'com.tibco.bw.binding.model' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.bw.binding.rest.model_6.3.1500.001.jar', header contains: 'com.tibco.bw.binding.model; name=bw.rest,com.tibco.bw.binding.model; name=bw.rest.reference.binding'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.747
+!MESSAGE Unable to load product extension information, non-recognized type 'com.tibco.bw.binding.model' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.bw.binding.rest.model_6.3.1500.001.jar', header contains: 'com.tibco.bw.binding.model; name=bw.rest,com.tibco.bw.binding.model; name=bw.rest.reference.binding'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.757
+!MESSAGE Unable to load product extension information, non-recognized type 'com.tibco.bw.binding.model' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.bw.binding.soap.axis2.model_6.4.900.003.jar', header contains: 'com.tibco.bw.binding.model; name=bw.soap'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.856
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.bw.tpcl.com.sun.jersey_2.21.600.001', header contains: 'osgi.contract;osgi.contract=com.sun.jersey;version:Version=2.4.1;uses:="javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ext,javax.servlet,javax.servlet.http,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.namespace,javax.xml.parsers,javax.xml.stream,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stream,javax.xml.validation,org.codehaus.jackson,org.codehaus.jackson.jaxrs,org.codehaus.jackson.map,org.codehaus.jackson.type,org.codehaus.jettison.json,org.w3c.dom,org.xml.sax,org.xml.sax.helpersorg.osgi.framework"'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.856
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.bw.tpcl.com.wordnik.swagger_2.20.100.001', header contains: 'osgi.contract;osgi.contract=com.wordnik.swagger;version:Version=2.9.1;uses:="javax.ws.rs.core,javax.ws.rs.ext,org.slf4j"'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.863
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.bw.tpcl.javax.ws.rs_2.1.0.001', header contains: 'osgi.contract;osgi.contract=javax.ws.rs;version:Version=2.0.0;uses:="javax.ws.rs.core,javax.ws.rs.ext,javax.ws.rs"'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.866
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.bw.tpcl.org.apache.axis2.core_1.7.100.003', header contains: 'osgi.contract;osgi.contract=org.apache.axis2;version:Version=1.7.9;uses:="javax.activation,javax.mail.util,javax.net.ssl,javax.servlet,javax.servlet.http,javax.transaction,javax.wsdl,javax.wsdl.extensions,javax.wsdl.xml,javax.xml.namespace,javax.xml.parsers,javax.xml.stream,javax.xml.transform,org.apache.axiom.attachments,org.apache.axiom.om,org.apache.axiom.om.impl.builder,org.apache.axiom.om.util,org.apache.axiom.soap,org.apache.axis2,org.apache.axis2.addressing,org.apache.axis2.addressing.i18n,org.apache.axis2.addressing.metadata,org.apache.axis2.addressing.wsdl,org.apache.axis2.builder,org.apache.axis2.builder.unknowncontent,org.apache.axis2.classloader,org.apache.axis2.client,org.apache.axis2.client.async,org.apache.axis2.clustering,org.apache.axis2.clustering.management,org.apache.axis2.clustering.state,org.apache.axis2.context,org.apache.axis2.context.externalize,org.apache.axis2.dataretrieval,org.apache.axis2.dataretrieval.client,org.apache.axis2.deployment,org.apache.axis2.deployment.repository.util,org.apache.axis2.deployment.resolver,org.apache.axis2.deployment.scheduler,org.apache.axis2.deployment.util,org.apache.axis2.description,org.apache.axis2.description.java2wsdl,org.apache.axis2.description.java2wsdl.bytecode,org.apache.axis2.dispatchers,org.apache.axis2.engine,org.apache.axis2.handlers,org.apache.axis2.i18n,org.apache.axis2.java.security,org.apache.axis2.jsr181,org.apache.axis2.jaxrs,org.apache.axis2.jaxws,org.apache.axis2.jaxws.addressing,org.apache.axis2.jaxws.addressing.factory,org.apache.axis2.jaxws.addressing.factory.impl,org.apache.axis2.jaxws.addressing.migrator,org.apache.axis2.jaxws.addressing.util,org.apache.axis2.jaxws.api,org.apache.axis2.jaxws.binding,org.apache.axis2.jaxws.client,org.apache.axis2.jaxws.client.async,org.apache.axis2.jaxws.client.config,org.apache.axis2.jaxws.client.dispatch,org.apache.axis2.jaxws.client.proxy,org.apache.axis2.jaxws.context,org.apache.axis2.jaxws.context.factory,org.apache.axis2.jaxws.context.listener,org.apache.axis2.jaxws.context.utils,org.apache.axis2.jaxws.core,org.apache.axis2.jaxws.core.controller,org.apache.axis2.jaxws.core.controller.impl,org.apache.axis2.jaxws.core.util,org.apache.axis2.jaxws.dispatchers,org.apache.axis2.jaxws.feature,org.apache.axis2.jaxws.framework,org.apache.axis2.jaxws.handler,org.apache.axis2.jaxws.handler.factory,org.apache.axis2.jaxws.handler.factory.impl,org.apache.axis2.jaxws.handler.impl,org.apache.axis2.jaxws.handler.lifecycle.factory,org.apache.axis2.jaxws.handler.lifecycle.impl,org.apache.axis2.jaxws.injection,org.apache.axis2.jaxws.lifecycle,org.apache.axis2.jaxws.marshaller,org.apache.axis2.jaxws.marshaller.factory,org.apache.axis2.jaxws.marshaller.impl.alt,org.apache.axis2.jaxws.message,org.apache.axis2.jaxws.message.attachments,org.apache.axis2.jaxws.message.databinding,org.apache.axis2.jaxws.message.databinding.impl,org.apache.axis2.jaxws.message.factory,org.apache.axis2.jaxws.message.impl,org.apache.axis2.jaxws.message.util,org.apache.axis2.jaxws.message.util.impl,org.apache.axis2.jaxws.registry,org.apache.axis2.jaxws.runtime.description.injection,org.apache.axis2.jaxws.runtime.description.injection.impl,org.apache.axis2.jaxws.runtime.description.marshal,org.apache.axis2.jaxws.runtime.description.marshal.impl,org.apache.axis2.jaxws.server,org.apache.axis2.jaxws.server.dispatcher,org.apache.axis2.jaxws.server.dispatcher.factory,org.apache.axis2.jaxws.server.endpoint,org.apache.axis2.jaxws.server.endpoint.injection,org.apache.axis2.jaxws.server.endpoint.injection.factory,org.apache.axis2.jaxws.server.endpoint.injection.impl,org.apache.axis2.jaxws.server.endpoint.lifecycle,org.apache.axis2.jaxws.server.endpoint.lifecycle.factory,org.apache.axis2.jaxws.server.endpoint.lifecycle.factory.impl,org.apache.axis2.jaxws.server.endpoint.lifecycle.impl,org.apache.axis2.jaxws.spi,org.apache.axis2.jaxws.spi.handler,org.apache.axis2.jaxws.spi.migrator,org.apache.axis2.jaxws.utility,org.apache.axis2.jaxws.wrapper,org.apache.axis2.jaxws.wrapper.impl,org.apache.axis2.jaxws.wsdl,org.apache.axis2.jaxws.wsdl.impl,org.apache.axis2.modules,org.apache.axis2.namespace,org.apache.axis2.phaseresolver,org.apache.axis2.receivers,org.apache.axis2.service,org.apache.axis2.transaction,org.apache.axis2.transport,org.apache.axis2.transport.http,org.apache.axis2.transport.http.server,org.apache.axis2.transport.http.util,org.apache.axis2.util,org.apache.axis2.util.threadpool,org.apache.axis2.wsdl,org.apache.axis2.wsdl.util,org.apache.commons.fileupload.disk,org.apache.commons.httpclient,org.apache.commons.httpclient.methods,org.apache.commons.httpclient.methods.multipart,org.apache.commons.httpclient.params,org.apache.commons.httpclient.protocol,org.apache.commons.logging,org.apache.http,org.apache.http.params,org.apache.http.protocol,org.apache.neethi,org.apache.woden.resolver,org.apache.woden.wsdl20,org.apache.ws.commons.schema,org.apache.ws.commons.schema.resolver,org.apache.ws.commons.schema.utils,org.w3c.dom,org.xml.sax"'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.866
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.bw.tpcl.org.apache.neethi_3.1.100.001', header contains: 'osgi.contract;osgi.contract=org.apache.neethi;version:Version=3.0.2;uses:="javax.xml.namespace,javax.xml.stream,org.apache.axiom.om,org.apache.neethi,org.apache.neethi.builders,org.apache.neethi.builders.converters,org.apache.neethi.builders.xml,org.apache.neethi.util,org.w3c.dom"'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.866
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.bw.tpcl.org.apache.woden_1.1.100.002', header contains: 'osgi.contract;osgi.contract=org.apache.woden;version:Version=1.0.0;uses:="javax.xml.namespace,org.apache.woden,org.apache.woden.resolver,org.apache.woden.schema,org.apache.woden.types,org.apache.woden.wsdl20,org.apache.woden.wsdl20.enumeration,org.apache.woden.wsdl20.extensions,org.apache.woden.wsdl20.extensions.http,org.apache.woden.wsdl20.extensions.rpc,org.apache.woden.wsdl20.extensions.soap,org.apache.woden.wsdl20.fragids,org.apache.woden.wsdl20.validation,org.apache.woden.wsdl20.xml,org.apache.woden.xml,org.apache.woden.xpointer,org.apache.ws.commons.schema"'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.871
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.bw.tpcl.org.codehaus.jackson_1.10.0.001', header contains: 'osgi.contract;osgi.contract=org.codehaus.jackson;version:Version=1.9.2;uses:="javax.xml.bind.annotation.adapters,  javax.xml.parsers,  org.w3c.dom,  javax.activation,  javax.xml.bind.annotation,  javax.ws.rs,  javax.ws.rs.core,  javax.ws.rs.ext,  org.codehaus.jackson,  org.codehaus.jackson.annotate,  org.codehaus.jackson.format,  org.codehaus.jackson.impl,  org.codehaus.jackson.io,  org.codehaus.jackson.jaxrs,  org.codehaus.jackson.map,  org.codehaus.jackson.map.annotate,  org.codehaus.jackson.map.deser,  org.codehaus.jackson.map.deser.impl,  org.codehaus.jackson.map.deser.std,  org.codehaus.jackson.map.exc,  org.codehaus.jackson.map.ext,  org.codehaus.jackson.map.introspect,  org.codehaus.jackson.map.jsontype,  org.codehaus.jackson.map.jsontype.impl,  org.codehaus.jackson.map.module,  org.codehaus.jackson.map.ser,  org.codehaus.jackson.map.ser.impl,  org.codehaus.jackson.map.ser.std,  org.codehaus.jackson.map.type,  org.codehaus.jackson.map.util,  org.codehaus.jackson.node,  org.codehaus.jackson.schema,  org.codehaus.jackson.sym,  org.codehaus.jackson.type,  org.codehaus.jackson.util,  org.codehaus.jackson.xc"'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.871
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.bw.tpcl.org.codehaus.jettison_1.4.0.001', header contains: 'osgi.contract;osgi.contract=org.codehaus.jettison;version:Version=1.3.3;uses:="javax.xml.stream,javax.xml.stream.events,javax.xml.stream.util,javax.xml.transform,javax.xml.namespace,org.codehaus.jettison,org.codehaus.jettison.badgerfish,org.codehaus.jettison.json,org.codehaus.jettison.mapped,org.codehaus.jettison.util,org.w3c.dom"'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.897
+!MESSAGE Unable to load product extension information, non-recognized type 'bw.soap.interceptor' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.governance.agent.bw6_2.1.200.005.jar', header contains: 'bw.soap.interceptor'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.955
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.tpcl.org.apache.commons.pool_1.6.0.001', header contains: 'osgi.contract;osgi.contract=org.apache.commons.pool;version:Version=1.6.0'
+
+!ENTRY com.tibco.bw.design 4 4 2022-01-11 20:53:00.981
+!MESSAGE Unable to load product extension information, non-recognized type 'osgi.contract' inside manifest within bunlde at 'C:\Tibco\ContainerEditionTibco\bwce\2.6\system\shared\com.tibco.tpcl.org.jaxen_1.1.400.001', header contains: 'osgi.contract;osgi.contract=org.jaxen;version:Version=1.1.4;uses:="javax.xml.parsers,org.dom4j,org.dom4j.io,org.jaxen,org.jaxen.dom,org.jaxen.dom4j,org.jaxen.expr,org.jaxen.expr.iter,org.jaxen.function,org.jaxen.function.ext,org.jaxen.function.xslt,org.jaxen.javabean,org.jaxen.jdom,org.jaxen.pattern,org.jaxen.saxpath,org.jaxen.saxpath.base,org.jaxen.saxpath.helpers,org.jaxen.util,org.jaxen.xom,org.jdom,org.jdom.input,org.xml.sax"'
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:03.569
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [httpexample.HTTPProcess], Activity [HTTPReceiver]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:03.570
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@1b49127f (activityTypeID: bw.http.HTTPReceiver, version: 6.0.0.20132205)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:03.570
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:03.574
+!MESSAGE BWDesigntimeResourceValidationHelper.validateActivityRequiredPlugin() Process [httpexample.HTTPProcess], Activity [SendHTTPResponse]
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:03.574
+!MESSAGE   bwActivity = com.tibco.bw.core.model.bwext.impl.BWActivityImpl@4922add3 (activityTypeID: bw.http.sendHTTPResponse, version: 6.0.0.20132205)
+
+!ENTRY com.tibco.bw.core.design.resource 1 0 2022-01-11 20:53:03.574
+!MESSAGE   activityTypeId=null, isMissingRequiredPlugin=false, exception=null
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.624
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.624
+!MESSAGE Encryption setings are not available for project - SoapServiceTest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.624
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.630
+!MESSAGE Encryption setings are not available for project - SoapServiceTest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.633
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.639
+!MESSAGE Encryption setings are not available for project - SoapServiceTest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.642
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.642
+!MESSAGE Encryption setings are not available for project - SoapServiceTest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.644
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.644
+!MESSAGE Encryption setings are not available for project - SoapServiceTest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.644
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.650
+!MESSAGE Encryption setings are not available for project - SoapServiceTest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.653
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.655
+!MESSAGE Encryption setings are not available for project - SoapServiceTest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.655
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.655
+!MESSAGE Encryption setings are not available for project - SoapServiceTest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.655
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.663
+!MESSAGE Encryption setings are not available for project - SoapServiceTest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.665
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.665
+!MESSAGE Encryption setings are not available for project - SoapServiceTest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.669
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 4 0 2022-01-11 20:53:03.675
+!MESSAGE The project SoapServiceTest is not accessible.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.676
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.865
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.880
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.881
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.883
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.887
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.908
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.908
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.912
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.922
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.926
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.928
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.929
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.932
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.934
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.937
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.940
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.942
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.944
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.946
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.948
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.952
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.957
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.968
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.968
+!MESSAGE Encryption setings are not available for project - HTTPExample.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.987
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.987
+!MESSAGE Encryption setings are not available for project - HTTPExample.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.987
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.987
+!MESSAGE Encryption setings are not available for project - HTTPExample.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:03.987
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:03.998
+!MESSAGE Encryption setings are not available for project - HTTPExample.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.000
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.003
+!MESSAGE Encryption setings are not available for project - HTTPExample.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.005
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.008
+!MESSAGE Encryption setings are not available for project - HTTPExample.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.008
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.012
+!MESSAGE Encryption setings are not available for project - HTTPExample.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.013
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.018
+!MESSAGE Encryption setings are not available for project - HTTPExample.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.018
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.018
+!MESSAGE Encryption setings are not available for project - HTTPExample.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.027
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.037
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.068
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.068
+!MESSAGE Encryption setings are not available for project - tibco_bw_sample_binding_rest_basic_service_application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.068
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.079
+!MESSAGE Encryption setings are not available for project - tibco_bw_sample_binding_rest_basic_service_application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.079
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.079
+!MESSAGE Encryption setings are not available for project - tibco_bw_sample_binding_rest_basic_service_application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.085
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.087
+!MESSAGE Encryption setings are not available for project - tibco_bw_sample_binding_rest_basic_service_application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.101
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.103
+!MESSAGE Encryption setings are not available for project - tibco_bw_sample_binding_rest_basic_service_application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.106
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.107
+!MESSAGE Encryption setings are not available for project - tibco_bw_sample_binding_rest_basic_service_application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.110
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.111
+!MESSAGE Encryption setings are not available for project - tibco_bw_sample_binding_rest_basic_service_application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.116
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.121
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.126
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.134
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.136
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.136
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.140
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.140
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.140
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.146
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.147
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.151
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.153
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.153
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.153
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.159
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.161
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.163
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.163
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.163
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.170
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.171
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.173
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.176
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.178
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.180
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.182
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.183
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.185
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.187
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.189
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.191
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.191
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.194
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.195
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.197
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.200
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.202
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.204
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.217
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.219
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.221
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.224
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.225
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.228
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.229
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.232
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.234
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.236
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.238
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.242
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.242
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.252
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.254
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.256
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.256
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.259
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.262
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.264
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.266
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.267
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.270
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.271
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.274
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.275
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.277
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.278
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.280
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.283
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.285
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.288
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.288
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.288
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.292
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.295
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.296
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.297
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.299
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.300
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.303
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.304
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.306
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.307
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.308
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.311
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.312
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.314
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.314
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.314
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.314
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.320
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.323
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.323
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.323
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.329
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.331
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.334
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.334
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.340
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.343
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.345
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.345
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.345
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.351
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.354
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.355
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.359
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.361
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.364
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.364
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.364
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.364
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.371
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.373
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.374
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.374
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.374
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.374
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.383
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.386
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.388
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.389
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.390
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.395
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.396
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.398
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.400
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.406
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.407
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.414
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.417
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.417
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.424
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.426
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.426
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.426
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.437
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.441
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.443
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.446
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.447
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.450
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.453
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.458
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.460
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.461
+!MESSAGE Encryption setings are not available for project - tibco.bw.sample.palette.java.InvokeCode.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.468
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.471
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.476
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.480
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.482
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.483
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.527
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.530
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.531
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.531
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.540
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.541
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.544
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.546
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.549
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.551
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.556
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.558
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.558
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.558
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.558
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.572
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.575
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.577
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.580
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.580
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.580
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.589
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.590
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.593
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.595
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.595
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.599
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.599
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.599
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.609
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.611
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.613
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.613
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.613
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.623
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.628
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.631
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.631
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.634
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.636
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.640
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.642
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.646
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.647
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.650
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.650
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.650
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.656
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.658
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.660
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.660
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.666
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.668
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.670
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.671
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.671
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.675
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.677
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.681
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.682
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.684
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.685
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.687
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.691
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.698
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.703
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.706
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.709
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.711
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.711
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.711
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.716
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.720
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.722
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.722
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.722
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.726
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.728
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.731
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.733
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.736
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.739
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.742
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.743
+!MESSAGE Encryption setings are not available for project - TestRestService.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.764
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.764
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.769
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.771
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.786
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.798
+!MESSAGE Encryption setings are not available for project - RestClient.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.798
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.798
+!MESSAGE Encryption setings are not available for project - RestClient.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.798
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.806
+!MESSAGE Encryption setings are not available for project - RestClient.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.809
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.809
+!MESSAGE Encryption setings are not available for project - RestClient.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.819
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.823
+!MESSAGE Encryption setings are not available for project - RestClient.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.826
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.827
+!MESSAGE Encryption setings are not available for project - RestClient.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.829
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.830
+!MESSAGE Encryption setings are not available for project - RestClient.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.833
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.837
+!MESSAGE Encryption setings are not available for project - RestClient.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.841
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 20:53:04.843
+!MESSAGE Encryption setings are not available for project - RestClient.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.851
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:04.856
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.314
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.317
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.319
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.323
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.325
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.327
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.327
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.332
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.333
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.333
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.340
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.341
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.345
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.347
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.348
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.349
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.351
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.353
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.623
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.640
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.643
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.655
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.657
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.660
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.663
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.668
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.673
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.677
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.680
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.682
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.685
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.692
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.694
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.698
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.707
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.707
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.713
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.718
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.850
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.851
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.855
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.858
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.860
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.861
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.861
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.861
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.871
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.873
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.876
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.877
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.879
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.881
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.883
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.883
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.883
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.883
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.898
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.898
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 20:53:05.898
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:40.033
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:40.033
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:40.041
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:40.043
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:40.047
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:40.048
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.858
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.858
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.858
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.858
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.869
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.873
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.875
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.877
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.879
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:45.880
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.601
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.634
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.649
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.649
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.649
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.662
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.663
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.663
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.673
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:47.675
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.172
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.172
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.195
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.195
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.207
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.209
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.209
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.209
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.209
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.225
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.230
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.230
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.235
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.235
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.235
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.235
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.235
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.251
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.251
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 1 0 2022-01-11 21:11:48.258
+!MESSAGE Encryption setings are not available for project - javaconfigtest.application
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.260
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.dc 4 0 2022-01-11 21:11:48.260
+!MESSAGE The project javaconfigtest is not accessible.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:11:48.268
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.692
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.692
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.692
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.692
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.709
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.710
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.710
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.710
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.718
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:22.719
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.488
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.488
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.497
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.499
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.505
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.507
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.507
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.507
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:23.520
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.340
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.342
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.342
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.346
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.348
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.349
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.349
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.353
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:33.355
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.493
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.508
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.525
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.527
+!MESSAGE Loading docker.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.539
+!MESSAGE Loading UnixProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.541
+!MESSAGE Loading WindowsProfile.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.543
+!MESSAGE Loading default.substvar as a plaintext file.
+
+!ENTRY com.tibco.zion.common 1 0 2022-01-11 21:12:34.553
+!MESSAGE Loading default.substvar as a plaintext file.

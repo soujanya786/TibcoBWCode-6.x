@@ -1,0 +1,30 @@
+<process-dir height="461" id="httpexample.HTTPProcess" name="httpexample.HTTPProcess" type="process" width="792" x="140" y="20">
+<ProcessInfo createdBy="sures" createdOn="Thu Nov 25 17:07:09 EST 2021" description="" modifiedBy="" modifiedOn="" modifiers="public" productVersion="6.5.0 V63 2018-08-08" scalable="true" singleton="true" stateless="false" type="IT"/>
+<link-dir id="5c736054-85e0-4316-91fb-5b7949d1c6b3" label="" linkType="SUCCESS" name="HTTPReceiverToSendHTTPResponse" points="[[181,169],[399,169]]" source="fbf1b790-068f-4e1f-9c52-3629af033afa" target="5c38d123-184e-426b-a1ff-fba94e6c3c34"/>
+<activity-dir height="48" id="fbf1b790-068f-4e1f-9c52-3629af033afa" name="HTTPReceiver" type="bw.http.HTTPReceiver" width="48" x="132" y="145">
+<BWActivity activityTypeID="bw.http.HTTPReceiver" version="6.0.0.20132205">
+<activityConfig>
+<properties name="config" type="activityconfig:EMFProperty">
+<type href="http://ns.tibco.com/bw/palette/http#//HTTPReceiver"/>
+<value customId="" defaultEncoding="ISO8859_1" httpConnection="httpConnectorResource" outputHeadersQName="ActivityOutputType:headersType" outputStyle="String" sequencingKey="" type="http:HTTPReceiver">
+<httpParameters parameterName="Input1"/>
+<httpParameters parameterName="Input2"/>
+<writeToFilePolicy/>
+</value>
+</properties>
+</activityConfig>
+</BWActivity>
+</activity-dir>
+<activity-dir height="48" id="5c38d123-184e-426b-a1ff-fba94e6c3c34" name="SendHTTPResponse" type="bw.http.sendHTTPResponse" width="48" x="399" y="145">
+<inputBinding expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns1=&quot;http://tns.tibco.com/bw/activity/sendhttpresponse/xsd/input+5c38d123-184e-426b-a1ff-fba94e6c3c34+ResponseActivityInput&quot; version=&quot;2.0&quot;&gt;&lt;xsl:param name=&quot;HTTPReceiver&quot;/&gt;&lt;xsl:template name=&quot;SendHTTPResponse-input&quot; match=&quot;/&quot;&gt;&lt;tns1:ResponseActivityInput&gt;&lt;asciiContent&gt;&lt;xsl:value-of select=&quot;concat('The total is: ',string(number($HTTPReceiver/parameters/Input1) + number($HTTPReceiver/parameters/Input2)))&quot;/&gt;&lt;/asciiContent&gt;&lt;/tns1:ResponseActivityInput&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;"/>
+<partBinding expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns1=&quot;http://tns.tibco.com/bw/activity/sendhttpresponse/xsd/input+5c38d123-184e-426b-a1ff-fba94e6c3c34+ResponseActivityInput&quot; version=&quot;2.0&quot;&gt;&lt;xsl:param name=&quot;HTTPReceiver&quot;/&gt;&lt;xsl:template name=&quot;SendHTTPResponse-input&quot; match=&quot;/&quot;&gt;&lt;tns1:ResponseActivityInput&gt;&lt;asciiContent&gt;&lt;xsl:value-of select=&quot;concat('The total is: ',string(number($HTTPReceiver/parameters/Input1) + number($HTTPReceiver/parameters/Input2)))&quot;/&gt;&lt;/asciiContent&gt;&lt;/tns1:ResponseActivityInput&gt;&lt;/xsl:template&gt;&lt;/xsl:stylesheet&gt;"/>
+<BWActivity activityTypeID="bw.http.sendHTTPResponse" version="6.0.0.20132205">
+<activityConfig>
+<properties name="config" type="activityconfig:EMFProperty">
+<type href="http://ns.tibco.com/bw/palette/http#//SendHTTPResponse"/>
+<value closeConnection="true" inputHeadersQName="ResponseActivityInput:headersType" replyFor="HTTPReceiver" type="http:SendHTTPResponse"/>
+</properties>
+</activityConfig>
+</BWActivity>
+</activity-dir>
+</process-dir>

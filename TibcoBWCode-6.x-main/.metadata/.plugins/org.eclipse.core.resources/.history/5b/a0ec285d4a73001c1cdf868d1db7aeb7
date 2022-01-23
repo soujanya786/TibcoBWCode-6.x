@@ -1,0 +1,106 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "Resource",
+    "description" : "Resource service"
+  },
+  "host" : "localhost:8080",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/resource/" : {
+      "post" : {
+        "summary" : "postResource",
+        "description" : "postResource",
+        "operationId" : "post-resource",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "description" : "",
+          "schema" : {
+            "$ref" : "#/definitions/AccountDetails"
+          },
+          "required" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "a AccDetailsResponse to be returned",
+            "schema" : {
+              "$ref" : "#/definitions/AccDetailsResponse"
+            }
+          }
+        }
+      },
+      "get" : {
+        "summary" : "getResource",
+        "description" : "getResource",
+        "operationId" : "get-resource",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "AccountNum",
+          "in" : "query",
+          "description" : "",
+          "type" : "integer",
+          "format" : "int32",
+          "required" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "a LoanEligibility to be returned",
+            "schema" : {
+              "$ref" : "#/definitions/LoanEligibility"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "AccDetailsResponse" : {
+      "type" : "object",
+      "required" : [ "AccountNum" ],
+      "properties" : {
+        "AccountNum" : {
+          "type" : "integer"
+        },
+        "Message" : {
+          "type" : "string"
+        }
+      }
+    },
+    "LoanEligibility" : {
+      "type" : "object",
+      "required" : [ "CreditScore" ],
+      "properties" : {
+        "CreditScore" : {
+          "type" : "number"
+        },
+        "LoanEligibility" : {
+          "type" : "string"
+        },
+        "AccountNum" : {
+          "type" : "integer"
+        },
+        "AccountName" : {
+          "type" : "string"
+        }
+      }
+    },
+    "AccountDetails" : {
+      "type" : "object",
+      "required" : [ "Balance", "AccountName" ],
+      "properties" : {
+        "AccountName" : {
+          "type" : "string"
+        },
+        "Balance" : {
+          "type" : "integer"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns="http://tibco.tnt.org/Invoice"
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	 targetNamespace="http://tibco.tnt.org/Invoice"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xsd:element name="LineItem">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="OrderIdentifier"/>
+				<xsd:element ref="LineNumber"/>
+				<xsd:element ref="ItemIdentifier"/>
+				<xsd:element ref="Quantity"/>
+				<xsd:element ref="UnitPrice"/>
+				<xsd:element ref="ShipmentDate" minOccurs="0"/>
+				<xsd:element ref="ShipmentLocation" minOccurs="0"/>
+				<xsd:element ref="Status" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="PurchaseOrder">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="OrderIdentifier"/>
+				<xsd:element ref="CustomerIdentifier"/>
+				<xsd:element ref="PurchaseOrderDate" minOccurs="0"/>
+				<xsd:element ref="Total" minOccurs="0"/>
+				<xsd:element ref="Status" minOccurs="0"/>
+				<xsd:element ref="LineItem" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="OrderIdentifier" type="xsd:string"/>
+	<xsd:element name="CustomerIdentifier" type="xsd:string"/>
+	<xsd:element name="PurchaseOrderDate" type="xsd:string"/>
+	<xsd:element name="Total" type="xsd:string"/>
+	<xsd:element name="Status" type="xsd:string"/>
+	<xsd:element name="LineNumber" type="xsd:integer"/>
+	<xsd:element name="ItemIdentifier" type="xsd:string"/>
+	<xsd:element name="Quantity" type="xsd:decimal"/>
+	<xsd:element name="UnitPrice" type="xsd:decimal"/>
+	<xsd:element name="ShipmentDate" type="xsd:string"/>
+	<xsd:element name="ShipmentLocation" type="xsd:string"/>
+</xsd:schema>

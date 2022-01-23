@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns="http://tibco.tnt.org/Customer"
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	 targetNamespace="http://tibco.tnt.org/Customer"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xsd:element name="CustomerInfo">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="CustomerName" minOccurs="0"/>
+				<xsd:element ref="CustomerIdentifier" minOccurs="0"/>
+				<xsd:element ref="CustomerAddress" minOccurs="0"/>
+				<xsd:element ref="State" minOccurs="0"/>
+				<xsd:element ref="Country" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CustomerIdentifier" type="xsd:string"/>
+	<xsd:element name="CustomerName" type="xsd:string"/>
+	<xsd:element name="CustomerAddress" type="xsd:string"/>
+	<xsd:element name="State" type="xsd:string"/>
+	<xsd:element name="Country" type="xsd:string"/>
+</xsd:schema>
